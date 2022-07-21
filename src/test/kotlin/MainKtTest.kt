@@ -34,7 +34,7 @@ class MainKtTest {
         val amount:Int = 3_430_29
 
         val commission:Int = getCommission(cardType, previousTransfersSum, amount)
-        assertEquals(0, commission)
+        assertEquals(1, commission)
     }
 
     @Test
